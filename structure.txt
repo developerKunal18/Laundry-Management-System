@@ -1,0 +1,36 @@
+Customer Management
+
+Register customers, save contact details, and search customer records.
+
+
+Laundry Orders
+
+Create orders, select services, calculate charges, and track order progress.
+
+
+Payments and Reports
+
+Record payments, calculate pending balances, and view daily order summaries.
+
+
+
+Project folder structure
+
+LaundryManagementSystem/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── customer_manager.py
+├── order_manager.py
+├── payment_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── customers.json
+    ├── orders.json
+    └── payments.json
